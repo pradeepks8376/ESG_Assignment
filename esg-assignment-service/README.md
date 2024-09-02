@@ -26,19 +26,22 @@ The `StringCalculator` project is a standlone program to perform arithmetic oper
     mvn clean install
     ```
 
-# CSV to REST API Java Application Project
+# esg-assignment-service 
 
 ## Project Setup
 
 1. Clone the repository
-2. Navigate to the project directory
+2. Navigate to the project directory esg-assignment-service
 3. Run `mvn clean install` to build the project
 
 ## Running the Application
 
 - Run the application using your IDE or `mvn spring-boot:run`
-- Run the Console application ConsoleInput.java to load CSV file to h2 database
+- Run the Console application com.esg.input.ConsoleInput.java to load CSV file to h2 database
 
+## Main Java files used
+- EsgAssignmentServiceApplication is the Spring Boot class
+- CustomerController is the Rest Controller present in package com.esg.controller
 
 ## REST API Endpoints
 
